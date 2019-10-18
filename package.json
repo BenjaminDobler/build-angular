@@ -1,6 +1,6 @@
 {
   "name": "@richapps/build-angular",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.2",
   "description": "devkit for building apps with the angular cli",
   "author": {
     "name": "Benjamin Dobler",
@@ -18,16 +18,16 @@
   },
   "builders": "./dist/builders/builders.json",
   "dependencies": {
-    "@angular-devkit/build-angular": "^0.800.3",
-    "@angular-devkit/core": "^8.0.3",
-    "@angular-devkit/schematics": "^8.0.3",
-    "@angular/compiler": "^8.0.2",
-    "@angular/compiler-cli": "^8.0.2",
-    "@angular/core": "^8.0.2",
-    "@schematics/angular": "^8.0.3",
+    "@angular-devkit/core": ">=8.0.0",
+    "@angular-devkit/schematics": ">=8.0.0",
+    "@schematics/angular": ">=8.3.9",
     "webpack-merge": "^4.2.2"
   },
+  "peerDependencies": {
+    "@angular-devkit/build-angular": ">=^0.803.9"
+  },
   "devDependencies": {
+    "@angular-devkit/build-angular": ">=0.803.9",
     "@types/jasmine": "^3.3.13",
     "@types/node": "~11.9.0",
     "@types/webpack": "^4.4.33",

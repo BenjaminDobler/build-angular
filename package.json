@@ -1,6 +1,6 @@
 {
   "name": "@richapps/build-angular",
-  "version": "0.0.1-beta.2",
+  "version": "0.1.0",
   "description": "devkit for building apps with the angular cli",
   "author": {
     "name": "Benjamin Dobler",
